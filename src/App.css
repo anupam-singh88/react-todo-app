@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 222, 222);
+}
+
+.noteContainer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 23px;
+  width: 35vw;
+}
+
+.inp {
+  /* border: 1px solid rgb(161, 143, 143); */
+  padding: 10px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border: none;
+  background-color: rgb(231, 226, 226);
+  border-radius: 3px;
+  /* color: white; */
+  /* color: #557ea400; */
+}
+
+.inp:focus {
+  outline: 1.5px solid #a5d5f8;
+  /* border: ; */
+}
+
+form {
+  display: flex;
+  gap: 4px;
+}
+
+#addBtn {
+  padding: 6px 14px;
+  font-weight: 600;
+  background-color: #a5d5f8;
+  color: white;
+  border: none;
+}
+
+#addBtn:hover {
+
+  background-color: #3d78a2;
+  cursor: pointer;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.notes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.noteTitle {
+  font-size: 19px;
+  width: 100%;
+  text-align: start;
+}
+
+@media screen and (max-width: 700px) {
+  .noteContainer {
+    width: 75vw;
+  }
+
+}
