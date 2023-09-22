@@ -11,12 +11,10 @@ export default function Note() {
 
     const onChangeHandler = (e) => {
         setNote(e.target.value)
-        // console.log(e.target.value)
     }
 
     const saveToLocal = () => {
         localStorage.setItem('notes', JSON.stringify([...notesArr]));
-        // console.log(notesArr)
     }
     const onSubmitHandler = (e) => {
         e.preventDefault();
