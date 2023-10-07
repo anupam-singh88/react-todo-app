@@ -1,4 +1,8 @@
 # TodoReact App
+
+## URL
+https://react-todo-38838.web.app
+
 ![image](https://github.com/anupam-singh88/react-todo-app/assets/89381022/cdc4d7c8-3a5f-4be5-8392-9add6c7d6bfc)
 
 
@@ -25,5 +29,3 @@ This project is a simple todo app created using React.js. It uses hooks like use
 5. Open your browser and go to `http://localhost:3000`.
 6. Use the application to manage your todo items.
 
-## URL
-https://react-todo-38838.web.app
