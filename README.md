@@ -1,4 +1,6 @@
 # TodoReact App
+![image](https://github.com/anupam-singh88/react-todo-app/assets/89381022/cdc4d7c8-3a5f-4be5-8392-9add6c7d6bfc)
+
 
 ## Description
 This project is a simple todo app created using React.js. It uses hooks like useState and useContext to avoid prop drilling. All the notes are stored in the local storage of the browser for persistence. The app is deployed on Firebase for easy access.
